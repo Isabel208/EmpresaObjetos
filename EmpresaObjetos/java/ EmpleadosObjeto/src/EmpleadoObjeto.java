@@ -15,7 +15,7 @@ public class EmpleadoObjeto {
         // Ingresar la cantidad de empleados
         int cantidad = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese la cantidad de empleados"));
         
-        for (int emp = 1; emp <= cantidad; emp++) {
+        for (int emp = 0; emp < cantidad; emp++) {
             // Lectura de los datos de cada empleado
             nombre = JOptionPane.showInputDialog(null, "Ingrese el nombre del empleado");
             salario = Double.parseDouble(JOptionPane.showInputDialog(null, "Ingrese el salario del empleado"));
